@@ -12,26 +12,3 @@ body {
   color: #212121;
   line-height: 1.5;
 }
-
-.gallery {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 24px;
-  row-gap: 48px;
-  padding: 100px 154px;
-  margin: 0 auto;
-  list-style: none;
-  justify-content: center;
-  max-width: 1128px;
-}
-
-.image-item {
-  width: calc((100% - 24px * 2) / 3);
-}
-
-.gallery li img {
-  display: block;
-  width: 100%;
-  max-width: 360px;
-  height: 300px;
-}
